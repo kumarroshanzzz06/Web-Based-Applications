@@ -1,0 +1,70 @@
+.hvr-grow {
+	border-color:red;
+	height:80px;
+	width:300px;
+	border-radius:5px;
+   background-color:#F8F1F1;
+   color:red;
+   cursor:pointer;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:active {
+	background-color:red;
+   color:white;
+    transform: scale(1.1);
+}
+select,input[type='date']
+{
+cursor:pointer;
+}
+*
+{
+	font-size:25px;
+	font-family:Impact;
+	color:#AA0B0B;
+}
+input,select
+{
+	height:40px;
+	width:350px;
+	border-color:red;
+}
+textarea{
+	height:80px;
+	width:350px;
+	border-color:red;
+}
+.credit
+{
+	width:120px;
+}
+.crdit1{
+	width:50px;
+}
+.naming2{
+	width:200px;
+}
+input,select,textarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    outline: none; 
+}
+input:focus,select:focus,textarea:focus{
+    -moz-box-shadow: 0 0 18px red;
+    -webkit-box-shadow: 0 0 18px red;
+        box-shadow: 0 0 18px red;
+}
